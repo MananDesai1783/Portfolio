@@ -19,8 +19,8 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Manan Desai, </p>
             <p className="subtext">
-            Data Analyst & Strategic Researcher passionate about turning complex data into actionable insights
-            Skilled in Python, SQL, AWS, and Business Intelligence to drive smarter healthcare and finance solutions
+            Data Analyst & Strategic Researcher passionate about turning complex data into actionable insights using Python, SQL, AWS, Power BI and Tableau.
+Currently expanding expertise in artificial intelligence to drive smarter healthcare and finance solutions.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
