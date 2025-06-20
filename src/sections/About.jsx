@@ -36,12 +36,12 @@ const About = () => {
 
     <Card
       style={{ rotate: "15deg", top: "20%", left: "10%" }}
-      text="Exploratory Analysis"
+      text="Manipulate"
       containerRef={grid2Container}
     />
     <Card
       style={{ rotate: "-25deg", top: "60%", left: "15%" }}
-      text="SQL Automation"
+      text="Data Viz"
       containerRef={grid2Container}
     />
     <Card
@@ -51,12 +51,12 @@ const About = () => {
     />
     <Card
       style={{ rotate: "-30deg", top: "70%", left: "65%" }}
-      text="KPIs & Metrics"
+      text="KPIs"
       containerRef={grid2Container}
     />
     <Card
       style={{ rotate: "20deg", top: "35%", left: "35%" }}
-      text="Business Insights"
+      text="EDA"
       containerRef={grid2Container}
             />
             <Card
