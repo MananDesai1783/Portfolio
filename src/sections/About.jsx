@@ -88,27 +88,31 @@ Currently expanding expertise in artificial intelligence to drive smarter health
             <Globe />
           </figure>
         </div>
-        {/* Grid 4 */}
+{/* Grid 4 */}
 <div className="grid-special-color grid-4">
   <div className="flex flex-col items-center justify-center gap-4 size-full">
     <p className="text-center headtext">
       Do you want to start a project together?
     </p>
     <p className="text-center text-white text-lg">
-      Email me at <a href="mailto:mananpdesai1783@gmail.com" className="underline hover:text-indigo-300">mananpdesai1783@gmail.com</a>
+      Email me at <span className="underline">mananpdesai1783@gmail.com</span>
     </p>
+    <CopyEmailButton email="mananpdesai1783@gmail.com" />
   </div>
 </div>
+
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-               Technical Skills:
- Languages & Databases: SQL, Python, R Programming, SQL Server, MySQL, MS Access, PostgreSQL, Oracle, Git
- Data Science: AWS (S3, EC2, Athena, DynamoDB, Glue, Redshift), Power BI, Tableau, Informatica, Databricks,
- Talend, Qlik, Snowflake, MongoDB, Azure, PySpark, Alteryx, Google Data Studio, IBM Cognos, Salesforce CRM
- DevOps & Project Management: Agile (Scrum), Waterfall, JIRA, Confluence, Bitbucket, Jenkins, Azure DevOps
+            
+  <strong>Languages & Databases:</strong> SQL, Python, R Programming, SQL Server, MySQL, MS Access, PostgreSQL, Oracle, Git<br /><br />
+  
+  <strong>Data Science:</strong> AWS (S3, EC2, Athena, DynamoDB, Glue, Redshift), Power BI, Tableau, Informatica, Databricks, Talend, Qlik, Snowflake, MongoDB, Azure, PySpark, Alteryx, Google Data Studio, IBM Cognos, Salesforce CRM<br /><br />
+  
+  <strong>DevOps & Project Management:</strong> Agile (Scrum), Waterfall, JIRA, Confluence, Bitbucket, Jenkins, Azure DevOps
+</p>
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
