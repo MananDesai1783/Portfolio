@@ -41,7 +41,7 @@ const Hero = () => {
       {/* Social Icons & Resume Button - Bottom Right */}
       <div className="fixed bottom-8 right-8 flex flex-col items-center space-y-6 z-50">
         <a
-          href="https://linkedin.com/in/your-linkedin" // Replace with your LinkedIn URL
+          href="https://www.linkedin.com/in/mananpdesai/" // Replace with your LinkedIn URL
           target="_blank"
           rel="noopener noreferrer"
           className="text-4xl text-blue-600 hover:text-blue-800 transition"
@@ -50,7 +50,7 @@ const Hero = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/your-github" // Replace with your GitHub URL
+          href="https://github.com/MananDesai1783" // Replace with your GitHub URL
           target="_blank"
           rel="noopener noreferrer"
           className="text-4xl text-gray-900 hover:text-gray-700 transition"
@@ -59,7 +59,7 @@ const Hero = () => {
           <FaGithub />
         </a>
         <a
-          href="/path-to-your-resume.pdf" // Replace with your resume file path
+          href="/Manan_Desai_DA_Resume.pdf" // Replace with your resume file path
           download
           className="text-4xl text-green-600 hover:text-green-800 transition"
           aria-label="Download Resume"
