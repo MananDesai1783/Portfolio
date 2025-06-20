@@ -58,24 +58,24 @@ const About = () => {
       style={{ rotate: "20deg", top: "35%", left: "35%" }}
       text="Business Insights"
       containerRef={grid2Container}
-    />
-    <Card
-      style={{ rotate: "-10deg", top: "20%", left: "75%" }}
-      image="assets/logos/python.png"
-      containerRef={grid2Container}
-    />
-    <Card
-      style={{ rotate: "25deg", top: "55%", left: "40%" }}
-      image="assets/logos/sql.png"
-      containerRef={grid2Container}
-    />
-    <Card
-      style={{ rotate: "30deg", top: "75%", left: "80%" }}
-      image="assets/logos/powerbi.png"
-      containerRef={grid2Container}
-    />
-  </div>
-</div>
+            />
+            <Card
+              style={{ rotate: "30deg", top: "70%", left: "70%" }}
+              image="assets/logos/csharp-pink.png"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "-45deg", top: "70%", left: "25%" }}
+              image="assets/logos/dotnet-pink.png"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "-45deg", top: "5%", left: "10%" }}
+              image="assets/logos/blazor-pink.png"
+              containerRef={grid2Container}
+            />
+          </div>
+        </div>
 
         {/* Grid 3 */}
         <div className="grid-black-color grid-3">
