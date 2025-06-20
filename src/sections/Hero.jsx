@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space"
+      className="relative flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space"
     >
       <HeroText />
       <ParallaxBackground />
@@ -29,8 +29,8 @@ const Hero = () => {
           <Suspense fallback={<Loader />}>
             <Float>
               <Astronaut
-                scale={isMobile && 0.23}
-                position={isMobile && [0, -1.5, 0]}
+                scale={isMobile ? 0.23 : 1}
+                position={isMobile ? [0, -1.5, 0] : [0, 0, 0]}
               />
             </Float>
             <Rig />
@@ -83,4 +83,5 @@ function Rig() {
 }
 
 export default Hero;
+
 
