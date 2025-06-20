@@ -3,10 +3,11 @@ import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
+import Education from "./sections/Education";  // <-- import Education here
 import Experiences from "./sections/Experiences";
 import Testimonial from "./sections/Testimonial";
 import Contact from "./sections/Contact";
-import Footer from './sections/Footer';
+import Footer from "./sections/Footer";
 
 const App = () => {
   return (
@@ -14,13 +15,15 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <Experiences />  {/* 🔁 Moved above */}
-      <Projects />     {/* 🔁 Moved below */}
+      <Projects />
+      <Education />      {/* <-- add Education below Projects */}
+      <Experiences />
       <Testimonial />
       <Contact />
-      <Footer/>
+      <Footer />
     </div>
   );
 };
 
 export default App;
+
