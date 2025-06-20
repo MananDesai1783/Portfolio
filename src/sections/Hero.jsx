@@ -29,8 +29,8 @@ const Hero = () => {
           <Suspense fallback={<Loader />}>
             <Float>
               <Astronaut
-                scale={isMobile ? 0.23 : 1}
-                position={isMobile ? [0, -1.5, 0] : [0, 0, 0]}
+                scale={isMobile ? 0.7 : 1}
+                position={isMobile ? [0, -0.5, 0] : [0, 0, 0]}
               />
             </Float>
             <Rig />
@@ -53,7 +53,7 @@ const Hero = () => {
           href="https://github.com/MananDesai1783" // Replace with your GitHub URL
           target="_blank"
           rel="noopener noreferrer"
-          className="text-4xl text-gray-900 hover:text-gray-700 transition"
+          className="text-4xl text-gray-200 hover:text-gray-400 transition"
           aria-label="GitHub"
         >
           <FaGithub />
@@ -83,5 +83,4 @@ function Rig() {
 }
 
 export default Hero;
-
 
