@@ -106,13 +106,8 @@ Currently expanding expertise in artificial intelligence to drive smarter health
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-            
-  <strong>Languages & Databases:</strong> SQL, Python, R Programming, SQL Server, MySQL, MS Access, PostgreSQL, Oracle, Git<br /><br />
-  
-  <strong>Data Science:</strong> AWS (S3, EC2, Athena, DynamoDB, Glue, Redshift), Power BI, Tableau, Informatica, Databricks, Talend, Qlik, Snowflake, MongoDB, Azure, PySpark, Alteryx, Google Data Studio, IBM Cognos, Salesforce CRM<br /><br />
-  
-  <strong>DevOps & Project Management:</strong> Agile (Scrum), Waterfall, JIRA, Confluence, Bitbucket, Jenkins, Azure DevOps
-</p>
+              I specialize in a variety of languages, frameworks, and tools taht
+              allow me to build robust and scalable applications
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
