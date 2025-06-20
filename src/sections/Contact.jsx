@@ -37,12 +37,12 @@ const Contact = () => {
         "service_pf39mv3",
         "template_swl2wzf",
         {
-          from_name: formData.name,
-          to_name: "Manan",
-          from_email: formData.email,
-          to_email: "mananpdesai1783@gmail.com",
-          message: formData.message,
-        },
+  from_name: formData.name,
+  from_email: formData.email,
+  message: formData.message,
+  to_name: "Manan",
+  to_email: "mananpdesai1783@gmail.com",
+},
         "B56L9mPv_RknJheug"
       );
       setIsLoading(false);
