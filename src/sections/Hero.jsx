@@ -1,7 +1,7 @@
 import { Canvas, useFrame } from "@react-three/fiber";
 import HeroText from "../components/HeroText";
 import ParallaxBackground from "../components/ParallaxBackground";
-import { Astronaut } from "../components/Astronaut";
+import { AstronautWrapper } from "../components/Astronaut"; // Updated import
 import { Float } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
@@ -34,7 +34,7 @@ const Hero = () => {
 
           <Suspense fallback={<Loader />}>
             <Float>
-              <Astronaut scale={0.35} position={[0.8, -1.5, 0]} />
+              <AstronautWrapper scale={0.35} position={[0.8, -1.5, 0]} />
             </Float>
             <Rig />
           </Suspense>
