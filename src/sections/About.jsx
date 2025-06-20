@@ -31,7 +31,7 @@ const About = () => {
     className="flex items-center justify-center w-full h-full"
   >
     <p className="flex items-end text-5xl text-gray-500">
-      Turning Raw Data 
+      Data Analysis 
     </p>
 
     <Card
