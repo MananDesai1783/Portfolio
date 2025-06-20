@@ -104,26 +104,27 @@ const About = () => {
         </div>
 
 {/* Grid 5 */}
-<div className="grid-default-color grid-5 relative flex items-center px-4">
-  <div className="z-10 w-[65%] pr-4 text-[10px] leading-tight space-y-1">
-    <p className="text-[11px] font-bold text-white">Technical Skillset</p>
-    <p className="text-[10px] text-white">
+<div className="grid-default-color grid-5 relative flex items-center px-4 md:px-6">
+  <div className="z-10 w-[60%] text-[0.7rem] leading-snug space-y-2 pr-4 text-white">
+    <p className="text-[0.8rem] font-semibold">Technical Skillset</p>
+    <p>
       <strong>Languages & Databases:</strong> SQL, Python, R, PostgreSQL, Oracle, SQL Server, MySQL, MS Access, Git
     </p>
-    <p className="text-[10px] text-white">
+    <p>
       <strong>Cloud & Visualization:</strong> AWS (S3, EC2, Glue, Athena, Redshift), Power BI, Tableau, Azure, Google Data Studio
     </p>
-    <p className="text-[10px] text-white">
+    <p>
       <strong>ETL & Big Data:</strong> Databricks, PySpark, Snowflake, Informatica, Talend, MongoDB, Alteryx
     </p>
-    <p className="text-[10px] text-white">
+    <p>
       <strong>Project & DevOps:</strong> Agile (Scrum), JIRA, Confluence, Bitbucket, Jenkins, Azure DevOps
     </p>
-    <p className="text-[10px] text-white">
+    <p>
       <strong>Certifications:</strong> AWS Data Analytics Certified, Tableau Desktop Specialist, Google DA Certified, McKinsey Forward
     </p>
   </div>
-  <div className="w-[35%] flex justify-center scale-90 md:scale-95">
+
+  <div className="w-[40%] flex justify-center items-center scale-90 md:scale-100">
     <Frameworks />
   </div>
 </div>
