@@ -28,7 +28,6 @@ const Hero = () => {
           <directionalLight position={[2, 2, 5]} intensity={1} />
           <Suspense fallback={<Loader />}>
             <Float>
-              {/* Slightly adjusted position for visibility */}
               <Astronaut scale={0.35} position={[0.8, -1.5, 0]} />
             </Float>
             <Rig />
@@ -36,8 +35,8 @@ const Hero = () => {
         </Canvas>
       </figure>
 
-      {/* Social Icons - Bottom Right */}
-      <div className="fixed bottom-8 right-8 z-50 text-right">
+      {/* Social Links with Header */}
+      <div className="fixed bottom-8 right-8 z-50 text-right bg-black/40 p-4 rounded-xl">
         <h2 className="text-white text-lg font-semibold mb-3">
           Connect with Me
         </h2>
@@ -51,18 +50,15 @@ const Hero = () => {
           >
             <FaLinkedin />
           </a>
-
           <a
             href="https://github.com/MananDesai1783"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
-            className="relative group text-3xl"
+            className="text-3xl text-gray-300 hover:text-white transition"
           >
-            <div className="absolute inset-0 rounded-full bg-gray-800 opacity-90 group-hover:opacity-100 transition"></div>
-            <FaGithub className="relative text-gray-200 group-hover:text-white transition" />
+            <FaGithub />
           </a>
-
           <a
             href="/Manan_Desai_DA_Resume.pdf"
             download
