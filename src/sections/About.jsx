@@ -95,9 +95,9 @@ Currently expanding expertise in artificial intelligence to drive smarter health
       Do you want to start a project together?
     </p>
     <p className="text-center text-white text-lg">
-      Email me at <span className="underline">mananpdesai1783@gmail.com</span>
+      Email me at{" "}
+      <CopyEmailButton email="mananpdesai1783@gmail.com" />
     </p>
-    <CopyEmailButton email="mananpdesai1783@gmail.com" />
   </div>
 </div>
 
@@ -106,7 +106,7 @@ Currently expanding expertise in artificial intelligence to drive smarter health
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
+              I specialize in a variety of languages, frameworks, and tools that
               allow me to build robust and scalable applications
             </p>
           </div>
