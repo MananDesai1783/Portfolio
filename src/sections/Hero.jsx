@@ -39,7 +39,7 @@ const Hero = () => {
       </figure>
 
       {/* Social Icons & Resume Button - Bottom Right */}
-      <div className="fixed bottom-8 right-8 flex flex-col items-center space-y-6 z-50 bg-white p-4 rounded shadow-lg border border-gray-300">
+      <div className="fixed bottom-8 right-8 flex flex-col items-center space-y-6 z-50">
         <a
           href="https://www.linkedin.com/in/mananpdesai/"
           target="_blank"
