@@ -105,8 +105,8 @@ const About = () => {
 
 {/* Grid 5 */}
 <div className="grid-default-color grid-5 relative flex items-center px-6">
-  <div className="z-10 w-[65%] pr-6 text-sm leading-snug">
-    <p className="headtext mb-2 text-base">Technical Skillset</p>
+  <div className="z-10 w-[65%] pr-6 text-xs leading-tight">
+    <p className="headtext mb-2 text-sm">Technical Skillset</p>
     <p className="subtext mb-1">
       <strong>Languages & Databases:</strong> SQL, Python, R, PostgreSQL, Oracle, SQL Server, MySQL, MS Access, Git
     </p>
@@ -127,6 +127,7 @@ const About = () => {
     <Frameworks />
   </div>
 </div>
+
 
       </div>
     </section>
