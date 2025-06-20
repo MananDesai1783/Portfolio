@@ -8,8 +8,9 @@ import { easing } from "maath";
 import { Suspense } from "react";
 import Loader from "../components/Loader";
 
-import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { HiOutlineDownload } from "react-icons/hi";
+// Temporarily remove react-icons imports for testing
+// import { FaLinkedin, FaGithub } from "react-icons/fa";
+// import { HiOutlineDownload } from "react-icons/hi";
 
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
@@ -38,33 +39,33 @@ const Hero = () => {
         </Canvas>
       </figure>
 
-      {/* Social Icons & Resume Button - Bottom Right */}
-      <div className="fixed bottom-8 right-8 flex flex-col items-center space-y-6 z-50">
+      {/* Debug Social Links Container */}
+      <div className="fixed bottom-8 right-8 flex flex-col items-center space-y-6 z-50 bg-white p-4 rounded shadow-lg border border-gray-300">
         <a
-          href="https://www.linkedin.com/in/mananpdesai/" // Replace with your LinkedIn URL
+          href="https://www.linkedin.com/in/mananpdesai/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-4xl text-blue-600 hover:text-blue-800 transition"
+          className="text-2xl font-semibold text-blue-600 hover:text-blue-800 transition"
           aria-label="LinkedIn"
         >
-          <FaLinkedin />
+          LinkedIn
         </a>
         <a
-          href="https://github.com/MananDesai1783" // Replace with your GitHub URL
+          href="https://github.com/MananDesai1783"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-4xl text-gray-900 hover:text-gray-700 transition"
+          className="text-2xl font-semibold text-gray-900 hover:text-gray-700 transition"
           aria-label="GitHub"
         >
-          <FaGithub />
+          GitHub
         </a>
         <a
-          href="/Manan_Desai_DA_Resume.pdf" // Replace with your resume file path
+          href="/Manan_Desai_DA_Resume.pdf"
           download
-          className="text-4xl text-green-600 hover:text-green-800 transition"
+          className="text-2xl font-semibold text-green-600 hover:text-green-800 transition"
           aria-label="Download Resume"
         >
-          <HiOutlineDownload />
+          Download Resume
         </a>
       </div>
     </section>
@@ -83,5 +84,4 @@ function Rig() {
 }
 
 export default Hero;
-
 
