@@ -103,33 +103,20 @@ const About = () => {
 
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
-          <div className="z-10 w-[50%] space-y-3">
-            <p className="headtext">Technical Skillset</p>
+          <div className="z-10 w-[50%]">
+            <p className="headText">Teck Stack</p>
             <p className="subtext">
-              <strong>Languages & Databases:</strong> SQL, Python, R, PostgreSQL, Oracle, SQL Server, MySQL, MS Access, Git
-            </p>
-            <p className="subtext">
-              <strong>Cloud & Visualization:</strong> AWS (S3, EC2, Glue, Athena, Redshift), Power BI, Tableau, Azure, Google Data Studio
-            </p>
-            <p className="subtext">
-              <strong>ETL & Big Data:</strong> Databricks, PySpark, Snowflake, Informatica, Talend, MongoDB, Alteryx
-            </p>
-            <p className="subtext">
-              <strong>Project & DevOps:</strong> Agile (Scrum), JIRA, Confluence, Bitbucket, Jenkins, Azure DevOps
-            </p>
-            <p className="subtext">
-              <strong>Certifications:</strong> AWS Data Analytics Certified, Tableau Desktop Specialist, Google DA Certified, McKinsey Forward
+              I specialize in a variety of languages, frameworks, and tools taht
+              allow me to build robust and scalable applications
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
             <Frameworks />
           </div>
         </div>
-
       </div>
     </section>
   );
 };
 
 export default About;
-
