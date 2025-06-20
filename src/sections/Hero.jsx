@@ -8,8 +8,12 @@ import { easing } from "maath";
 import { Suspense } from "react";
 import Loader from "../components/Loader";
 
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { HiOutlineDownload } from "react-icons/hi";
+
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
+
   return (
     <section
       id="home"
@@ -33,6 +37,36 @@ const Hero = () => {
           </Suspense>
         </Canvas>
       </figure>
+
+      {/* Social Icons & Resume Button - Bottom Right */}
+      <div className="fixed bottom-8 right-8 flex flex-col items-center space-y-6 z-50">
+        <a
+          href="https://linkedin.com/in/your-linkedin" // Replace with your LinkedIn URL
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-4xl text-blue-600 hover:text-blue-800 transition"
+          aria-label="LinkedIn"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          href="https://github.com/your-github" // Replace with your GitHub URL
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-4xl text-gray-900 hover:text-gray-700 transition"
+          aria-label="GitHub"
+        >
+          <FaGithub />
+        </a>
+        <a
+          href="/path-to-your-resume.pdf" // Replace with your resume file path
+          download
+          className="text-4xl text-green-600 hover:text-green-800 transition"
+          aria-label="Download Resume"
+        >
+          <HiOutlineDownload />
+        </a>
+      </div>
     </section>
   );
 };
@@ -49,3 +83,5 @@ function Rig() {
 }
 
 export default Hero;
+
+
