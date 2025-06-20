@@ -31,7 +31,7 @@ const About = () => {
     className="flex items-center justify-center w-full h-full"
   >
     <p className="absolute top-5 text-2xl font-semibold text-gray-600 text-center">
-      Turning Raw Data into Strategic Decisions
+      Turning Raw Data 
     </p>
 
     <Card
