@@ -35,57 +35,57 @@ const About = () => {
   </div>
 </div>
         
-        {/* Grid 2 */}
-        <div className="grid-default-color grid-2">
-          <div
-            ref={grid2Container}
-            className="flex items-center justify-center w-full h-full"
-          >
-            <p className="flex items-end text-5xl text-gray-500">
-              CODE IS CRAFT
-            </p>
-            <Card
-              style={{ rotate: "75deg", top: "30%", left: "20%" }}
-              text="GRASP"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="SOLID"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
-              text="Design Patterns"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "55%", left: "0%" }}
-              text="Design Principles"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              text="SRP"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="assets/logos/csharp-pink.png"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              image="assets/logos/dotnet-pink.png"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="assets/logos/blazor-pink.png"
-              containerRef={grid2Container}
-            />
-          </div>
-        </div>
+       {/* Grid 2 */}
+<div className="grid-default-color grid-2">
+  <div
+    ref={grid2Container}
+    className="flex items-center justify-center w-full h-full"
+  >
+    <p className="flex items-end text-4xl text-gray-500">
+      DATA UNLOCKS VALUE
+    </p>
+    <Card
+      style={{ rotate: "75deg", top: "30%", left: "20%" }}
+      text="SQL"
+      containerRef={grid2Container}
+    />
+    <Card
+      style={{ rotate: "-30deg", top: "60%", left: "45%" }}
+      text="Dashboards"
+      containerRef={grid2Container}
+    />
+    <Card
+      style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
+      text="Python"
+      containerRef={grid2Container}
+    />
+    <Card
+      style={{ rotate: "-45deg", top: "55%", left: "0%" }}
+      text="Insights"
+      containerRef={grid2Container}
+    />
+    <Card
+      style={{ rotate: "20deg", top: "10%", left: "38%" }}
+      text="Data Models"
+      containerRef={grid2Container}
+    />
+    <Card
+      style={{ rotate: "30deg", top: "70%", left: "70%" }}
+      image="assets/logos/tableau.png"
+      containerRef={grid2Container}
+    />
+    <Card
+      style={{ rotate: "-45deg", top: "70%", left: "25%" }}
+      image="assets/logos/powerbi.png"
+      containerRef={grid2Container}
+    />
+    <Card
+      style={{ rotate: "-45deg", top: "5%", left: "10%" }}
+      image="assets/logos/aws.png"
+      containerRef={grid2Container}
+    />
+  </div>
+</div>
         {/* Grid 3 */}
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
