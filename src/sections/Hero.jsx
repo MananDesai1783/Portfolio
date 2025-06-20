@@ -10,7 +10,6 @@ import Loader from "../components/Loader";
 
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
-
   return (
     <section
       id="home"
@@ -26,8 +25,8 @@ const Hero = () => {
           <Suspense fallback={<Loader />}>
             <Float>
               <Astronaut
-                scale={isMobile ? 0.23 : 1}
-                position={isMobile ? [0, -1.5, 0] : [0, 0, 0]}
+                scale={isMobile && 0.23}
+                position={isMobile && [0, -1.5, 0]}
               />
             </Float>
             <Rig />
