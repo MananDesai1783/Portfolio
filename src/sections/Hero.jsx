@@ -3,7 +3,6 @@ import HeroText from "../components/HeroText";
 import ParallaxBackground from "../components/ParallaxBackground";
 import { Astronaut } from "../components/Astronaut";
 import { Float } from "@react-three/drei";
-import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
 import { Suspense } from "react";
 import Loader from "../components/Loader";
@@ -12,8 +11,6 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiOutlineDownload } from "react-icons/hi";
 
 const Hero = () => {
-  const isMobile = useMediaQuery({ maxWidth: 853 });
-
   return (
     <section
       id="home"
@@ -21,6 +18,7 @@ const Hero = () => {
     >
       <HeroText />
       <ParallaxBackground />
+
       <figure
         className="absolute inset-0"
         style={{ width: "100vw", height: "100vh" }}
@@ -28,10 +26,8 @@ const Hero = () => {
         <Canvas camera={{ position: [0, 1, 3] }}>
           <Suspense fallback={<Loader />}>
             <Float>
-              <Astronaut
-                scale={isMobile ? 0.7 : 1}
-                position={isMobile ? [0, -0.5, 0] : [0, 0, 0]}
-              />
+              {/* Astronaut restored to original scale and position */}
+              <Astronaut scale={0.35} position={[0, -1.5, 0]} />
             </Float>
             <Rig />
           </Suspense>
@@ -40,8 +36,9 @@ const Hero = () => {
 
       {/* Social Icons & Resume Button - Bottom Right */}
       <div className="fixed bottom-8 right-8 flex flex-col items-center space-y-6 z-50">
+        {/* LinkedIn */}
         <a
-          href="https://www.linkedin.com/in/mananpdesai/" // Replace with your LinkedIn URL
+          href="https://www.linkedin.com/in/mananpdesai/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-4xl text-blue-600 hover:text-blue-800 transition"
@@ -49,17 +46,22 @@ const Hero = () => {
         >
           <FaLinkedin />
         </a>
+
+        {/* GitHub with dark circle background */}
         <a
-          href="https://github.com/MananDesai1783" // Replace with your GitHub URL
+          href="https://github.com/MananDesai1783"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-4xl text-gray-200 hover:text-gray-400 transition"
           aria-label="GitHub"
+          className="relative group text-4xl"
         >
-          <FaGithub />
+          <div className="absolute inset-0 rounded-full bg-gray-800 opacity-90 group-hover:opacity-100 transition"></div>
+          <FaGithub className="relative text-gray-200 group-hover:text-white transition" />
         </a>
+
+        {/* Resume */}
         <a
-          href="/Manan_Desai_DA_Resume.pdf" // Replace with your resume file path
+          href="/Manan_Desai_DA_Resume.pdf"
           download
           className="text-4xl text-green-600 hover:text-green-800 transition"
           aria-label="Download Resume"
@@ -83,4 +85,3 @@ function Rig() {
 }
 
 export default Hero;
-
