@@ -243,39 +243,64 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "CVS Health",
+    job: "Data Analyst",
+    date: "May 2024 - Present",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Engineered an Alerts and Monitoring system using Python and AWS Lambda, boosting system runtime efficiency by 25%",
+      "Consolidated data from 10+ databases using SQL, Oracle, and AWS Redshift; automated ETL to cut retrieval time by 60%",
+      "Spearheaded development of HIPAA-compliant emergency response tool; liaised with stakeholders across 5+ teams using Waterfall methodology",
+      "Deployed 4 interactive Power BI dashboards; enabled real-time KPI tracking and improved care delivery by 20%",
+      "Skills: Python, SQL, Oracle, AWS Lambda, AWS Redshift, ETL, Power BI, HIPAA Compliance, Waterfall",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Independent Research Project",
+    job: "Research Analyst",
+    date: "May 2024 - Present",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Conducted a large-scale strategic transformation study across 271 CEO transitions; identified 24% of variance in post-succession strategic changes attributable to TMT replacements",
+      "Constructed Python-based data pipelines to clean, preprocess, and structure datasets for analytical modeling",
+      "Executed hypothesis testing and multivariate regression to extract causal insights from organizational data",
+      "Collaborated with CTO to derive and deliver strategic recommendations to executive teams",
+      "Skills: Python, Data Analysis, Regression Modeling, Hypothesis Testing, Data Cleaning, Data Visualization",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Rutgers Business School ",
+    job: "Adjunct Professor",
+    date: "Jan 2024 - Dec 2024",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Delivered lectures for two courses totaling 94 students; taught Excel, MS Access, and Tableau, achieving a 100% pass rate",
+      "Developed over 10 BI-focused assignments using marketing analytics and data warehousing tools",
+      "Skills: Advanced Excel, MS Access, Tableau, Data Governance, Data Warehousing, Business Intelligence",
+    ],
+  },
+  {
+    title: "Genpact",
+    job: "Senior Data Analyst",
+    date: "Mar 2021 - Aug 2023",
+    contents: [
+      "Automated 6 ETL pipelines using Python (Pandas, NumPy, Scikit-learn) and Azure Data Factory; reduced turnaround from 2 days to 12 hrs",
+      "Built 3 Tableau dashboards for the Early Talent Team; reduced analysis time by 35%",
+      "Created EDA-based predictive model; improved revenue by 15%, customer retention by 20%",
+      "Led Agile/Scrum delivery across 5 business units using JIRA",
+      "Tuned SQL Server; reduced report generation time by 45% across 10+ finance processes",
+      "Skills: SQL Server, Python, Azure Data Factory, Tableau, EDA, Agile, Scrum, JIRA",
+    ],
+  },
+  {
+    title: "IBM",
+    job: "Data Science Intern",
+    date: "Jul 2022 - Sept 2022",
+    contents: [
+      "Queried 1.2M+ records with SQL; designed dashboards in Google Data Studio for KPI tracking",
+      "Enhanced chat UX via Figma designs; reduced user interaction time by 20%, increased satisfaction scores by 35%",
+      "Skills: SQL, Google Data Studio, Power BI, Figma, KPI Tracking, UX Design, Data Visualization",
     ],
   },
 ];
+
 export const reviews = [
   {
     name: "Jack",
