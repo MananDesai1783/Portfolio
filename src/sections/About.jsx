@@ -104,9 +104,9 @@ const About = () => {
         </div>
 
 {/* Grid 5 */}
-<div className="grid-default-color grid-5 relative flex items-center px-6">
-  <div className="z-10 w-[65%] pr-6 text-xs leading-tight">
-    <p className="headtext mb-2 text-sm">Technical Skillset</p>
+<div className="grid-default-color grid-5 relative flex items-center px-4">
+  <div className="z-10 w-[65%] pr-4 text-[0.6rem] leading-snug">
+    <p className="headtext mb-2 text-[0.7rem] font-semibold">Technical Skillset</p>
     <p className="subtext mb-1">
       <strong>Languages & Databases:</strong> SQL, Python, R, PostgreSQL, Oracle, SQL Server, MySQL, MS Access, Git
     </p>
