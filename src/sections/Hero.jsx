@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space"
+      className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space"
     >
       <HeroText />
       <ParallaxBackground />
@@ -41,27 +41,27 @@ const Hero = () => {
       {/* Social Icons & Resume Button - Bottom Right */}
       <div className="fixed bottom-8 right-8 flex flex-col items-center space-y-6 z-50">
         <a
-          href="https://www.linkedin.com/in/mananpdesai/"
+          href="https://www.linkedin.com/in/mananpdesai/" // Replace with your LinkedIn URL
           target="_blank"
           rel="noopener noreferrer"
-          className="text-5xl text-blue-600 hover:text-blue-800 transition"
+          className="text-4xl text-blue-600 hover:text-blue-800 transition"
           aria-label="LinkedIn"
         >
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/MananDesai1783"
+          href="https://github.com/MananDesai1783" // Replace with your GitHub URL
           target="_blank"
           rel="noopener noreferrer"
-          className="text-5xl text-gray-900 hover:text-gray-700 transition"
+          className="text-4xl text-gray-900 hover:text-gray-700 transition"
           aria-label="GitHub"
         >
           <FaGithub />
         </a>
         <a
-          href="/Manan_Desai_DA_Resume.pdf"
+          href="/Manan_Desai_DA_Resume.pdf" // Replace with your resume file path
           download
-          className="text-5xl text-green-600 hover:text-green-800 transition"
+          className="text-4xl text-green-600 hover:text-green-800 transition"
           aria-label="Download Resume"
         >
           <HiOutlineDownload />
