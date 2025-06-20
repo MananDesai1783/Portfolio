@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+
 function Navigation() {
   return (
     <ul className="nav-ul">
@@ -14,7 +15,7 @@ function Navigation() {
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#work">
+        <a className="nav-link" href="#experience">
           Work
         </a>
       </li>
@@ -26,6 +27,7 @@ function Navigation() {
     </ul>
   );
 }
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
