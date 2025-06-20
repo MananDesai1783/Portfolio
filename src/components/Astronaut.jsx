@@ -1,4 +1,3 @@
-// Astronaut.jsx
 import React, { useRef, useEffect } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 
@@ -14,11 +13,7 @@ export function Astronaut(props) {
       const action = actions[animations[0].name];
       if (action) {
         action.play();
-      } else {
-        console.warn("Animation action not found");
       }
-    } else {
-      console.warn("No animations found");
     }
   }, [actions, animations]);
 
@@ -54,19 +49,12 @@ export function Astronaut(props) {
                 material={materials.VisorMaterial}
                 skeleton={nodes.Mesh_Visor.skeleton}
               />
-              {/* Add more skinnedMeshes here if your model has them */}
             </group>
           </group>
         </group>
       </group>
     </group>
   );
-}
-
-export function AstronautWrapper(props) {
-  const gltf = useGLTF("/models/tenhun_falling_spaceman_fanart.glb");
-  if (!gltf) return null; // Wait until model is loaded
-  return <Astronaut {...props} />;
 }
 
 useGLTF.preload("/models/tenhun_falling_spaceman_fanart.glb");
