@@ -20,7 +20,7 @@ const About = () => {
             <p className="headtext">Hi, I'm Manan Desai, </p>
             <p className="subtext">
             Data Analyst & Strategic Researcher passionate about turning complex data into actionable insights using Python, SQL, AWS, Power BI and Tableau.
-Currently expanding expertise in artificial intelligence to drive smarter healthcare and finance solutions.
+Currently expanding expertise in artificial intelligence to drive smarter healthcare and finance solutions
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -81,7 +81,7 @@ Currently expanding expertise in artificial intelligence to drive smarter health
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
+              I'm based in New York (EST), and open to remote and hybrid work across time zones
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -89,21 +89,26 @@ Currently expanding expertise in artificial intelligence to drive smarter health
           </figure>
         </div>
         {/* Grid 4 */}
-        <div className="grid-special-color grid-4">
-          <div className="flex flex-col items-center justify-center gap-4 size-full">
-            <p className="text-center headtext">
-              Do you want to start a project together?
-            </p>
-            <CopyEmailButton />
-          </div>
-        </div>
+<div className="grid-special-color grid-4">
+  <div className="flex flex-col items-center justify-center gap-4 size-full">
+    <p className="text-center headtext">
+      Do you want to start a project together?
+    </p>
+    <p className="text-center text-white text-lg">
+      Email me at <a href="mailto:mananpdesai1783@gmail.com" className="underline hover:text-indigo-300">mananpdesai1783@gmail.com</a>
+    </p>
+  </div>
+</div>
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
-              allow me to build robust and scalable applications
+               Technical Skills:
+ Languages & Databases: SQL, Python, R Programming, SQL Server, MySQL, MS Access, PostgreSQL, Oracle, Git
+ Data Science: AWS (S3, EC2, Athena, DynamoDB, Glue, Redshift), Power BI, Tableau, Informatica, Databricks,
+ Talend, Qlik, Snowflake, MongoDB, Azure, PySpark, Alteryx, Google Data Studio, IBM Cognos, Salesforce CRM
+ DevOps & Project Management: Agile (Scrum), Waterfall, JIRA, Confluence, Bitbucket, Jenkins, Azure DevOps
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
