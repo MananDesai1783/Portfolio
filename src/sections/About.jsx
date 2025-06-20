@@ -30,32 +30,32 @@ const About = () => {
     ref={grid2Container}
     className="flex items-center justify-center w-full h-full"
   >
-    <p className="absolute top-5 text-2xl font-semibold text-gray-600 text-center">
+    <p className="flex items-end text-5xl text-gray-500">
       Turning Raw Data 
     </p>
 
     <Card
-      style={{ rotate: "15deg", top: "20%", left: "10%" }}
+      style={{ rotate: "75deg", top: "30%", left: "20%" }}
       text="Manipulate"
       containerRef={grid2Container}
     />
     <Card
-      style={{ rotate: "-25deg", top: "60%", left: "15%" }}
+      style={{ rotate: "-30deg", top: "60%", left: "45%" }}
       text="Data Viz"
       containerRef={grid2Container}
     />
     <Card
-      style={{ rotate: "10deg", top: "10%", left: "55%" }}
+      style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
       text="Data Cleaning"
       containerRef={grid2Container}
     />
     <Card
-      style={{ rotate: "-30deg", top: "70%", left: "65%" }}
+      style={{ rotate: "-45deg", top: "55%", left: "0%" }}
       text="KPIs"
       containerRef={grid2Container}
     />
     <Card
-      style={{ rotate: "20deg", top: "35%", left: "35%" }}
+      style={{ rotate: "20deg", top: "10%", left: "38%" }}
       text="EDA"
       containerRef={grid2Container}
             />
