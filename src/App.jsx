@@ -2,12 +2,12 @@ import React from "react";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
-import Projects from "./sections/Projects";
-import Education from "./sections/Education";  // <-- import Education here
-import Experiences from "./sections/Experiences";
+import Experiences from "./sections/Experiences";  // Experience first
+import Projects from "./sections/Projects";        // then Projects
+import Education from "./sections/Education";      // then Education
 import Testimonial from "./sections/Testimonial";
 import Contact from "./sections/Contact";
-import Footer from "./sections/Footer";
+import Footer from './sections/Footer';
 
 const App = () => {
   return (
@@ -15,9 +15,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <Projects />
-      <Education />      {/* <-- add Education below Projects */}
-      <Experiences />
+      <Experiences />     {/* Experience first */}
+      <Projects />        {/* Projects next */}
+      <Education />       {/* Education added here */}
       <Testimonial />
       <Contact />
       <Footer />
