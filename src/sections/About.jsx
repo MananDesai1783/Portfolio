@@ -35,53 +35,54 @@ const About = () => {
   </div>
 </div>
         
-       {/* Grid 2 */}
+{/* Grid 2 */}
 <div className="grid-default-color grid-2">
   <div
     ref={grid2Container}
     className="flex items-center justify-center w-full h-full"
   >
-    <p className="flex items-end text-4xl text-gray-500">
-      DATA UNLOCKS VALUE
+    <p className="absolute top-5 text-2xl font-semibold text-gray-600 text-center">
+      Turning Raw Data into Strategic Decisions
     </p>
+
     <Card
-      style={{ rotate: "75deg", top: "30%", left: "20%" }}
-      text="SQL"
+      style={{ rotate: "15deg", top: "20%", left: "10%" }}
+      text="Exploratory Analysis"
       containerRef={grid2Container}
     />
     <Card
-      style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-      text="Dashboards"
+      style={{ rotate: "-25deg", top: "60%", left: "15%" }}
+      text="SQL Automation"
       containerRef={grid2Container}
     />
     <Card
-      style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
-      text="Python"
+      style={{ rotate: "10deg", top: "10%", left: "55%" }}
+      text="Data Cleaning"
       containerRef={grid2Container}
     />
     <Card
-      style={{ rotate: "-45deg", top: "55%", left: "0%" }}
-      text="Insights"
+      style={{ rotate: "-30deg", top: "70%", left: "65%" }}
+      text="KPIs & Metrics"
       containerRef={grid2Container}
     />
     <Card
-      style={{ rotate: "20deg", top: "10%", left: "38%" }}
-      text="Data Models"
+      style={{ rotate: "20deg", top: "35%", left: "35%" }}
+      text="Business Insights"
       containerRef={grid2Container}
     />
     <Card
-      style={{ rotate: "30deg", top: "70%", left: "70%" }}
-      image="assets/logos/tableau.png"
+      style={{ rotate: "-10deg", top: "20%", left: "75%" }}
+      image="assets/logos/python.png"
       containerRef={grid2Container}
     />
     <Card
-      style={{ rotate: "-45deg", top: "70%", left: "25%" }}
+      style={{ rotate: "25deg", top: "55%", left: "40%" }}
+      image="assets/logos/sql.png"
+      containerRef={grid2Container}
+    />
+    <Card
+      style={{ rotate: "30deg", top: "75%", left: "80%" }}
       image="assets/logos/powerbi.png"
-      containerRef={grid2Container}
-    />
-    <Card
-      style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-      image="assets/logos/aws.png"
       containerRef={grid2Container}
     />
   </div>
