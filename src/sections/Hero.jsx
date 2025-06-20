@@ -1,32 +1,13 @@
 import { Canvas, useFrame } from "@react-three/fiber";
-import { Html, Float, useGLTF } from "@react-three/drei";
+import { Float } from "@react-three/drei";
 import HeroText from "../components/HeroText";
 import ParallaxBackground from "../components/ParallaxBackground";
 import { Suspense, useRef } from "react";
 import Loader from "../components/Loader";
-
+import { Astronaut } from "../components/Astronaut"; // ✅ Import the animated version
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiOutlineDownload } from "react-icons/hi";
 import { easing } from "maath";
-
-function RotatingBox(props) {
-  const ref = useRef();
-  useFrame((state, delta) => {
-    ref.current.rotation.y += delta;
-  });
-  return (
-    <mesh ref={ref} {...props}>
-      <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color="orange" />
-    </mesh>
-  );
-}
-
-function AstronautWrapper(props) {
-  // Make sure your model file is at /public/models/tenhun_falling_spaceman_fanart.glb
-  const { scene } = useGLTF("/models/tenhun_falling_spaceman_fanart.glb");
-  return <primitive object={scene} {...props} />;
-}
 
 function Rig() {
   return useFrame((state, delta) => {
@@ -58,20 +39,14 @@ const Hero = () => {
           <pointLight position={[0, 0, 2]} intensity={1} />
 
           <Suspense fallback={<Loader />}>
-            {/* Uncomment below to test simple cube first */}
-            {/* <RotatingBox position={[0, 0, 0]} /> */}
-
-            {/* When your model file is ready, comment above and uncomment below */}
             <Float>
-              <AstronautWrapper scale={0.35} position={[0, -1.5, 0]} />
+              <Astronaut scale={0.35} position={[0, -1.5, 0]} />
             </Float>
-
             <Rig />
           </Suspense>
         </Canvas>
       </figure>
 
-      {/* Social Icons with label */}
       <div className="fixed bottom-8 right-8 flex flex-col items-center space-y-4 z-50 text-white">
         <p className="font-semibold text-lg">Connect with me</p>
         <div className="flex flex-row space-x-6">
