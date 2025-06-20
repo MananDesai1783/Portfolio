@@ -3,6 +3,7 @@ import HeroText from "../components/HeroText";
 import ParallaxBackground from "../components/ParallaxBackground";
 import { Astronaut } from "../components/Astronaut";
 import { Float } from "@react-three/drei";
+import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
 import { Suspense } from "react";
 import Loader from "../components/Loader";
@@ -11,6 +12,8 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiOutlineDownload } from "react-icons/hi";
 
 const Hero = () => {
+  const isMobile = useMediaQuery({ maxWidth: 853 });
+
   return (
     <section
       id="home"
@@ -24,8 +27,11 @@ const Hero = () => {
         style={{ width: "100vw", height: "100vh" }}
       >
         <Canvas camera={{ position: [0, 1, 3] }}>
-          <ambientLight intensity={0.6} />
-          <directionalLight position={[2, 2, 5]} intensity={1} />
+          {/* Lighting */}
+          <ambientLight intensity={1.2} />
+          <directionalLight position={[5, 5, 5]} intensity={2} />
+          <pointLight position={[0, 0, 2]} intensity={1} />
+
           <Suspense fallback={<Loader />}>
             <Float>
               <Astronaut scale={0.35} position={[0.8, -1.5, 0]} />
@@ -35,12 +41,10 @@ const Hero = () => {
         </Canvas>
       </figure>
 
-      {/* Social Links with Header */}
-      <div className="fixed bottom-8 right-8 z-50 text-right bg-black/40 p-4 rounded-xl">
-        <h2 className="text-white text-lg font-semibold mb-3">
-          Connect with Me
-        </h2>
-        <div className="flex justify-end items-center space-x-6">
+      {/* Social Icons with label */}
+      <div className="fixed bottom-8 right-8 flex flex-col items-center space-y-4 z-50 text-white">
+        <p className="font-semibold text-lg">Connect with me</p>
+        <div className="flex flex-row space-x-6">
           <a
             href="https://www.linkedin.com/in/mananpdesai/"
             target="_blank"
@@ -54,15 +58,15 @@ const Hero = () => {
             href="https://github.com/MananDesai1783"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="GitHub"
             className="text-3xl text-gray-300 hover:text-white transition"
+            aria-label="GitHub"
           >
             <FaGithub />
           </a>
           <a
             href="/Manan_Desai_DA_Resume.pdf"
             download
-            className="text-3xl text-green-600 hover:text-green-800 transition"
+            className="text-3xl text-green-500 hover:text-green-700 transition"
             aria-label="Download Resume"
           >
             <HiOutlineDownload />
@@ -85,3 +89,4 @@ function Rig() {
 }
 
 export default Hero;
+
