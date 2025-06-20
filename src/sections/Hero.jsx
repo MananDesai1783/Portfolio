@@ -24,21 +24,24 @@ const Hero = () => {
         style={{ width: "100vw", height: "100vh" }}
       >
         <Canvas camera={{ position: [0, 1, 3] }}>
+          <ambientLight intensity={0.6} />
+          <directionalLight position={[2, 2, 5]} intensity={1} />
           <Suspense fallback={<Loader />}>
             <Float>
-              {/* Astronaut moved slightly to the right */}
-              <Astronaut scale={0.35} position={[1.2, -1.5, 0]} />
+              {/* Slightly adjusted position for visibility */}
+              <Astronaut scale={0.35} position={[0.8, -1.5, 0]} />
             </Float>
             <Rig />
           </Suspense>
         </Canvas>
       </figure>
 
-      {/* Social Icons & Label - Bottom Center */}
-      <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50 text-center">
-        <h2 className="text-white text-xl font-semibold mb-3">Connect with Me</h2>
-        <div className="flex justify-center items-center space-x-8">
-          {/* LinkedIn */}
+      {/* Social Icons - Bottom Right */}
+      <div className="fixed bottom-8 right-8 z-50 text-right">
+        <h2 className="text-white text-lg font-semibold mb-3">
+          Connect with Me
+        </h2>
+        <div className="flex justify-end items-center space-x-6">
           <a
             href="https://www.linkedin.com/in/mananpdesai/"
             target="_blank"
@@ -49,7 +52,6 @@ const Hero = () => {
             <FaLinkedin />
           </a>
 
-          {/* GitHub with dark circle background */}
           <a
             href="https://github.com/MananDesai1783"
             target="_blank"
@@ -61,7 +63,6 @@ const Hero = () => {
             <FaGithub className="relative text-gray-200 group-hover:text-white transition" />
           </a>
 
-          {/* Resume */}
           <a
             href="/Manan_Desai_DA_Resume.pdf"
             download
