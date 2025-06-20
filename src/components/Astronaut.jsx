@@ -1,3 +1,4 @@
+// components/Astronaut.jsx
 import React, { useRef, useEffect } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 
@@ -9,11 +10,8 @@ export function Astronaut(props) {
   const { actions } = useAnimations(animations, group);
 
   useEffect(() => {
-    if (animations.length > 0) {
-      const action = actions[animations[0].name];
-      if (action) {
-        action.play();
-      }
+    if (animations.length > 0 && actions[animations[0].name]) {
+      actions[animations[0].name].play();
     }
   }, [actions, animations]);
 
@@ -23,8 +21,6 @@ export function Astronaut(props) {
       {...props}
       dispose={null}
       rotation={[-Math.PI / 2, -0.2, 2.2]}
-      scale={props.scale || 0.3}
-      position={props.position || [1.3, -1, 0]}
     >
       <group name="Sketchfab_Scene">
         <group name="Sketchfab_model">
@@ -58,3 +54,4 @@ export function Astronaut(props) {
 }
 
 useGLTF.preload("/models/tenhun_falling_spaceman_fanart.glb");
+
