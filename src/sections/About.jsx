@@ -103,30 +103,31 @@ const About = () => {
           </div>
         </div>
 
-        {/* Grid 5 */}
-        <div className="grid-default-color grid-5">
-          <div className="z-10 w-[50%] space-y-2 text-xs md:text-sm">
-            <p className="headtext text-base md:text-lg">Technical Skillset</p>
-            <p className="subtext">
-              <strong>Languages & Databases:</strong> SQL, Python, R, PostgreSQL, Oracle, SQL Server, MySQL, MS Access, Git
-            </p>
-            <p className="subtext">
-              <strong>Cloud & Visualization:</strong> AWS (S3, EC2, Glue, Athena, Redshift), Power BI, Tableau, Azure, Google Data Studio
-            </p>
-            <p className="subtext">
-              <strong>ETL & Big Data:</strong> Databricks, PySpark, Snowflake, Informatica, Talend, MongoDB, Alteryx
-            </p>
-            <p className="subtext">
-              <strong>Project & DevOps:</strong> Agile (Scrum), JIRA, Confluence, Bitbucket, Jenkins, Azure DevOps
-            </p>
-            <p className="subtext">
-              <strong>Certifications:</strong> AWS Data Analytics Certified, Tableau Desktop Specialist, Google DA Certified, McKinsey Forward
-            </p>
-          </div>
-          <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
-            <Frameworks />
-          </div>
-        </div>
+{/* Grid 5 */}
+<div className="grid-default-color grid-5 relative flex items-center px-6">
+  <div className="z-10 w-[65%] pr-6 text-sm leading-snug">
+    <p className="headtext mb-2 text-base">Technical Skillset</p>
+    <p className="subtext mb-1">
+      <strong>Languages & Databases:</strong> SQL, Python, R, PostgreSQL, Oracle, SQL Server, MySQL, MS Access, Git
+    </p>
+    <p className="subtext mb-1">
+      <strong>Cloud & Visualization:</strong> AWS (S3, EC2, Glue, Athena, Redshift), Power BI, Tableau, Azure, Google Data Studio
+    </p>
+    <p className="subtext mb-1">
+      <strong>ETL & Big Data:</strong> Databricks, PySpark, Snowflake, Informatica, Talend, MongoDB, Alteryx
+    </p>
+    <p className="subtext mb-1">
+      <strong>Project & DevOps:</strong> Agile (Scrum), JIRA, Confluence, Bitbucket, Jenkins, Azure DevOps
+    </p>
+    <p className="subtext">
+      <strong>Certifications:</strong> AWS Data Analytics Certified, Tableau Desktop Specialist, Google DA Certified, McKinsey Forward
+    </p>
+  </div>
+  <div className="w-[35%] flex justify-center scale-90 md:scale-95">
+    <Frameworks />
+  </div>
+</div>
+
       </div>
     </section>
   );
