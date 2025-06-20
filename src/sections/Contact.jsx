@@ -56,7 +56,10 @@ const Contact = () => {
   };
 
   return (
-    <section className="relative flex items-center c-space section-spacing">
+    <section
+      id="contact"
+      className="relative flex items-center c-space section-spacing"
+    >
       <Particles
         className="absolute inset-0 -z-50"
         quantity={100}
@@ -69,8 +72,8 @@ const Contact = () => {
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Let's Connect</h2>
           <p className="font-normal text-neutral-400">
-            Interested in collaborating on projects or discussing job opportunities? 
-            I’d love to hear from you.
+            Interested in collaborating on projects or discussing job
+            opportunities? I’d love to hear from you.
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
