@@ -1,39 +1,19 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Expedia Hotel Booking Analysis",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Analyzed hotel booking behaviors using historical Expedia data to uncover trends and customer segmentation strategies.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Conducted data cleaning, transformation, and exploration using Pandas and NumPy.",
+      "Built visual dashboards with Power BI/Tableau to illustrate booking trends and pricing insights.",
+      "Performed segmentation to identify customer clusters using K-Means and PCA.",
+      "Extracted and analyzed booking patterns with SQL queries.",
     ],
     href: "",
     logo: "",
     image: "/assets/projects/accessories.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+   
     ],
   },
   {
