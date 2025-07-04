@@ -12,7 +12,6 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
     tags: [
        {
         id: 1,
