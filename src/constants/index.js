@@ -13,7 +13,27 @@ export const myProjects = [
     href: "https://github.com/MananDesai1783/Expedia-Hotel-Recommendation/blob/main/README.md",
   
     image: "/assets/projects/Proj_1.png",
-    
+    tags: [
+      {
+        id: 1,
+        name: "C#",
+        path: "/assets/logos/csharp.svg",
+      },
+      {
+        id: 2,
+        name: ".Net",
+        path: "/assets/logos/dotnet.svg",
+      },
+      {
+        id: 3,
+        name: "Ef Core",
+        path: "/assets/logos/efcore.png",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
     ],
   },
   {
@@ -30,7 +50,27 @@ export const myProjects = [
     href: "https://github.com/MananDesai1783/Sprocket-Data-Analysis-SQL/blob/main/README.md",
     
     image: "/assets/projects/Proj_2.png",
-    
+    tags: [
+      {
+        id: 1,
+        name: "Auth0",
+        path: "/assets/logos/auth0.svg",
+      },
+      {
+        id: 2,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "SQLite",
+        path: "/assets/logos/sqlite.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
     ],
   },
   {
@@ -47,7 +87,27 @@ export const myProjects = [
     href: "https://github.com/MananDesai1783/Social-Network-Analysis-Twitter/blob/main/README.md",
     
     image: "/assets/projects/Proj_3.png",
-   
+    tags: [
+      {
+        id: 1,
+        name: "Blazor",
+        path: "/assets/logos/blazor.svg",
+      },
+      {
+        id: 2,
+        name: ".NET Core",
+        path: "/assets/logos/dotnetcore.svg",
+      },
+      {
+        id: 3,
+        name: "SQLite",
+        path: "/assets/logos/sqlite.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
     ],
   },
   {
@@ -64,7 +124,27 @@ export const myProjects = [
     href: "https://github.com/MananDesai1783/Customer-Churn-Analysis-PowerBI/blob/main/README.md",
     
     image: "/assets/projects/Proj_4.png",
-    
+    tags: [
+      {
+        id: 1,
+        name: "C++",
+        path: "/assets/logos/cplusplus.svg",
+      },
+      {
+        id: 2,
+        name: "C#",
+        path: "/assets/logos/csharp.svg",
+      },
+      {
+        id: 3,
+        name: "Git",
+        path: "/assets/logos/git.svg",
+      },
+      {
+        id: 4,
+        name: "Microsoft",
+        path: "/assets/logos/microsoft.svg",
+      },
     ],
   },
   {
@@ -81,7 +161,27 @@ export const myProjects = [
     href: "https://github.com/MananDesai1783/Tesla-Sales-Productions-Delivery-Analysis-Tableau/blob/main/Tesla%20final%20Project%20.pptx",
     
     image: "/assets/projects/Proj_5.jpeg",
-   
+    tags: [
+      {
+        id: 1,
+        name: "WordPress",
+        path: "/assets/logos/wordpress.svg",
+      },
+      {
+        id: 2,
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 3,
+        name: "CSS3",
+        path: "/assets/logos/css3.svg",
+      },
+      {
+        id: 4,
+        name: "Vite.js",
+        path: "/assets/logos/vitejs.svg",
+      },
     ],
   },
   {
@@ -98,7 +198,27 @@ export const myProjects = [
     href: "https://github.com/MananDesai1783/Real-Time-Weather-Analysis-SQL",
     
     image: "/assets/projects/Proj_6.jpg",
-   
+    tags: [
+      {
+        id: 1,
+        name: "Blazor",
+        path: "/assets/logos/blazor.svg",
+      },
+      {
+        id: 2,
+        name: "Azure",
+        path: "/assets/logos/azure.svg",
+      },
+      {
+        id: 3,
+        name: "Stripe",
+        path: "/assets/logos/stripe.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
     ],
   },
 ];
