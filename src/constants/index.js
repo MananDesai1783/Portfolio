@@ -12,7 +12,7 @@ export const myProjects = [
     ],
     href: "https://github.com/MananDesai1783/Expedia-Hotel-Recommendation/blob/main/README.md",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/Proj_1.png",
     tags: [
        {
         id: 1,
@@ -49,7 +49,7 @@ export const myProjects = [
     ],
     href: "https://github.com/MananDesai1783/Sprocket-Data-Analysis-SQL/blob/main/README.md",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/Proj_2.png",
     tags: [
       {
         id: 1,
@@ -81,7 +81,7 @@ export const myProjects = [
     ],
     href: "https://github.com/MananDesai1783/Social-Network-Analysis-Twitter/blob/main/README.md",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/Proj_3.png",
     tags: [
       {
         id: 1,
@@ -113,7 +113,7 @@ export const myProjects = [
     ],
     href: "https://github.com/MananDesai1783/Customer-Churn-Analysis-PowerBI/blob/main/README.md",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/Proj_4.png",
     tags: [
       {
         id: 1,
@@ -150,7 +150,7 @@ export const myProjects = [
     ],
     href: "https://github.com/MananDesai1783/Tesla-Sales-Productions-Delivery-Analysis-Tableau/blob/main/Tesla%20final%20Project%20.pptx",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/Proj_5.jpeg",
     tags: [
       {
         id: 1,
@@ -187,7 +187,7 @@ export const myProjects = [
     ],
     href: "https://github.com/MananDesai1783/Real-Time-Weather-Analysis-SQL",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/Proj_6.jpg",
     tags: [
       {
         id: 1,
