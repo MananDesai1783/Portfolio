@@ -10,28 +10,29 @@ export const myProjects = [
       "Performed segmentation to identify customer clusters using K-Means and PCA",
       "Extracted and analyzed booking patterns with SQL queries",
     ],
-    href: "",
+    href: "https://github.com/MananDesai1783/Expedia-Hotel-Recommendation/blob/main/README.md",
     logo: "",
+    image: "/assets/projects/auth-system.jpg",
     tags: [
        {
         id: 1,
         name: "Python",
-        path: "/assets/logos/auth0.svg",
+        
       },
       {
         id: 2,
         name: "Pandas",
-        path: "/assets/logos/react.svg",
+    
       },
       {
         id: 3,
         name: "SQL",
-        path: "/assets/logos/sqlite.svg",
+        
       },
       {
         id: 4,
         name: "PowerBI",
-        path: "/assets/logos/tailwindcss.svg",
+        
       },
     ],
   },
@@ -46,24 +47,24 @@ export const myProjects = [
       "Performed query optimization for performance and scalability",
       "Documented database structure and ER diagrams",
     ],
-    href: "",
+    href: "https://github.com/MananDesai1783/Sprocket-Data-Analysis-SQL/blob/main/README.md",
     logo: "",
     image: "/assets/projects/auth-system.jpg",
     tags: [
       {
         id: 1,
         name: "SQL",
-        path: "/assets/logos/blazor.svg",
+        
       },
       {
         id: 2,
         name: "Relational Databases",
-        path: "/assets/logos/dotnetcore.svg",
+        
       },
       {
         id: 3,
         name: "Data Modeling",
-        path: "/assets/logos/sqlite.svg",
+       
       },
     ],
   },
@@ -78,24 +79,24 @@ export const myProjects = [
       "Performed centrality and modularity analysis for user segmentation",
       "Extracted and processed data from SQL sources for large-scale analysis",
     ],
-    href: "",
+    href: "https://github.com/MananDesai1783/Social-Network-Analysis-Twitter/blob/main/README.md",
     logo: "",
     image: "/assets/projects/blazor-app.jpg",
     tags: [
       {
         id: 1,
         name: "Python",
-        path: "/assets/logos/blazor.svg",
+        
       },
       {
         id: 2,
         name: "NetworkX",
-        path: "/assets/logos/dotnetcore.svg",
+        
       },
       {
         id: 3,
         name: "SQL",
-        path: "/assets/logos/sqlite.svg",
+        
       },
     ],
   },
@@ -110,29 +111,29 @@ export const myProjects = [
       "Visualized churn predictors and KPIs using Power BI",
       "Presented actionable business recommendations based on model results",
     ],
-    href: "",
+    href: "https://github.com/MananDesai1783/Customer-Churn-Analysis-PowerBI/blob/main/README.md",
     logo: "",
     image: "/assets/projects/game-engine.jpg",
     tags: [
       {
         id: 1,
         name: "Python",
-        path: "/assets/logos/cplusplus.svg",
+        
       },
       {
         id: 2,
         name: "Skikit-Learn",
-        path: "/assets/logos/csharp.svg",
+        
       },
       {
         id: 3,
         name: "SQL",
-        path: "/assets/logos/git.svg",
+        
       },
       {
         id: 4,
         name: "PowerBI",
-        path: "/assets/logos/microsoft.svg",
+        
       },
     ],
   },
@@ -147,29 +148,29 @@ export const myProjects = [
       "Created visual dashboards for price, volume, and volatility patterns",
       "Assessed market sentiment using rolling windows and correlation plots",
     ],
-    href: "",
+    href: "https://github.com/MananDesai1783/Tesla-Sales-Productions-Delivery-Analysis-Tableau/blob/main/Tesla%20final%20Project%20.pptx",
     logo: "",
     image: "/assets/projects/wordpress-theme.jpg",
     tags: [
       {
         id: 1,
         name: "Python",
-        path: "/assets/logos/wordpress.svg",
+        
       },
       {
         id: 2,
         name: "Time Series",
-        path: "/assets/logos/html5.svg",
+        
       },
       {
         id: 3,
         name: "Pandas",
-        path: "/assets/logos/css3.svg",
+        
       },
       {
         id: 4,
         name: "Matplotlib",
-        path: "/assets/logos/vitejs.svg",
+        
       },
     ],
   },
@@ -184,29 +185,29 @@ export const myProjects = [
       "Used Plotly Dash or Streamlit for a polished user interface",
       "Implemented geo-location-based auto-suggestions for user inputs",
     ],
-    href: "",
+    href: "https://github.com/MananDesai1783/Real-Time-Weather-Analysis-SQL",
     logo: "",
     image: "/assets/projects/elearning.jpg",
     tags: [
       {
         id: 1,
         name: "Python",
-        path: "/assets/logos/blazor.svg",
+        
       },
       {
         id: 2,
         name: "APIs",
-        path: "/assets/logos/azure.svg",
+        
       },
       {
         id: 3,
         name: "Real-Time Data",
-        path: "/assets/logos/stripe.svg",
+        
       },
       {
         id: 4,
         name: "Dash/Streamlit",
-        path: "/assets/logos/tailwindcss.svg",
+        
       },
     ],
   },
