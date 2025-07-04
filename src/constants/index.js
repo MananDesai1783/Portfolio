@@ -1,51 +1,51 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Expedia Hotel Booking Analysis",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Analyzed hotel booking behaviors using historical Expedia data to uncover trends and customer segmentation strategies.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Conducted data cleaning, transformation, and exploration using Pandas and NumPy",
+      "Built visual dashboards with Power BI/Tableau to illustrate booking trends and pricing insights",
+      "Performed segmentation to identify customer clusters using K-Means and PCA",
+      "Extracted and analyzed booking patterns with SQL queries",
     ],
     href: "",
     logo: "",
     image: "/assets/projects/accessories.jpg",
     tags: [
-      {
+       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Python",
+        path: "/assets/logos/auth0.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "Pandas",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "SQL",
+        path: "/assets/logos/sqlite.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "PowerBI",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "SP Rocket SQL Database Project",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Designed and optimized a relational database system for a hypothetical aerospace parts retailer.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Built a normalized SQL database schema with clear entity relationships",
+      "Wrote complex queries to derive business insights on sales and supply chains",
+      "Performed query optimization for performance and scalability",
+      "Documented database structure and ER diagrams",
     ],
     href: "",
     logo: "",
@@ -53,36 +53,31 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "SQL",
+        path: "/assets/logos/blazor.svg",
       },
       {
         id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "Relational Databases",
+        path: "/assets/logos/dotnetcore.svg",
       },
       {
         id: 3,
-        name: "SQLite",
+        name: "Data Modeling",
         path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Social Network Analytics Platform",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "Explored social network behaviors using graph theory and network analysis on real-world data.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Modeled user relationships and interactions using NetworkX",
+      "Visualized communities, influencers, and clusters using force-directed layouts",
+      "Performed centrality and modularity analysis for user segmentation",
+      "Extracted and processed data from SQL sources for large-scale analysis",
     ],
     href: "",
     logo: "",
@@ -90,36 +85,31 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Blazor",
+        name: "Python",
         path: "/assets/logos/blazor.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
+        name: "NetworkX",
         path: "/assets/logos/dotnetcore.svg",
       },
       {
         id: 3,
-        name: "SQLite",
+        name: "SQL",
         path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Customer Churn Prediction Model",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "Built a machine learning pipeline to predict customer churn in a telecom dataset.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Performed feature engineering and preprocessing on structured data",
+      "Trained and evaluated Logistic Regression, Random Forest, and XGBoost models",
+      "Visualized churn predictors and KPIs using Power BI",
+      "Presented actionable business recommendations based on model results",
     ],
     href: "",
     logo: "",
@@ -127,36 +117,36 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C++",
+        name: "Python",
         path: "/assets/logos/cplusplus.svg",
       },
       {
         id: 2,
-        name: "C#",
+        name: "Skikit-Learn",
         path: "/assets/logos/csharp.svg",
       },
       {
         id: 3,
-        name: "Git",
+        name: "SQL",
         path: "/assets/logos/git.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
+        name: "PowerBI",
         path: "/assets/logos/microsoft.svg",
       },
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "Tesla Stock Price Analysis",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "Forecasted Tesla stock prices using time series models and financial trend analysis.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "Collected historical data from Yahoo Finance using yfinance API",
+      "Applied moving averages, ARIMA, and LSTM models for trend prediction",
+      "Created visual dashboards for price, volume, and volatility patterns",
+      "Assessed market sentiment using rolling windows and correlation plots",
     ],
     href: "",
     logo: "",
@@ -164,36 +154,36 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "WordPress",
+        name: "Python",
         path: "/assets/logos/wordpress.svg",
       },
       {
         id: 2,
-        name: "HTML5",
+        name: "Time Series",
         path: "/assets/logos/html5.svg",
       },
       {
         id: 3,
-        name: "CSS3",
+        name: "Pandas",
         path: "/assets/logos/css3.svg",
       },
       {
         id: 4,
-        name: "Vite.js",
+        name: "Matplotlib",
         path: "/assets/logos/vitejs.svg",
       },
     ],
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Real-Time Weather Dashboard",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "Developed an interactive dashboard to display live weather data and forecasts for global locations.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Integrated weather APIs for real-time temperature, humidity, and forecasts",
+      "Designed a responsive frontend with interactive charts and maps",
+      "Used Plotly Dash or Streamlit for a polished user interface",
+      "Implemented geo-location-based auto-suggestions for user inputs",
     ],
     href: "",
     logo: "",
@@ -201,28 +191,27 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Blazor",
+        name: "Python",
         path: "/assets/logos/blazor.svg",
       },
       {
         id: 2,
-        name: "Azure",
+        name: "APIs",
         path: "/assets/logos/azure.svg",
       },
       {
         id: 3,
-        name: "Stripe",
+        name: "Real-Time Data",
         path: "/assets/logos/stripe.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "Dash/Streamlit",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
 ];
-
 
 export const mySocials = [
   {
@@ -241,6 +230,7 @@ export const mySocials = [
     icon: "/assets/socials/instagram.svg",
   },
 ];
+
 
 export const experiences = [
   {
