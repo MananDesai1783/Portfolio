@@ -11,7 +11,7 @@ export const myProjects = [
       "Extracted and analyzed booking patterns with SQL queries",
     ],
     href: "https://github.com/MananDesai1783/Expedia-Hotel-Recommendation/blob/main/README.md",
-    logo: "",
+  
     image: "/assets/projects/Proj_1.png",
     tags: [
        {
@@ -48,7 +48,7 @@ export const myProjects = [
       "Documented database structure and ER diagrams",
     ],
     href: "https://github.com/MananDesai1783/Sprocket-Data-Analysis-SQL/blob/main/README.md",
-    logo: "",
+    
     image: "/assets/projects/Proj_2.png",
     tags: [
       {
@@ -80,7 +80,7 @@ export const myProjects = [
       "Extracted and processed data from SQL sources for large-scale analysis",
     ],
     href: "https://github.com/MananDesai1783/Social-Network-Analysis-Twitter/blob/main/README.md",
-    logo: "",
+    
     image: "/assets/projects/Proj_3.png",
     tags: [
       {
@@ -112,7 +112,7 @@ export const myProjects = [
       "Presented actionable business recommendations based on model results",
     ],
     href: "https://github.com/MananDesai1783/Customer-Churn-Analysis-PowerBI/blob/main/README.md",
-    logo: "",
+    
     image: "/assets/projects/Proj_4.png",
     tags: [
       {
@@ -149,7 +149,7 @@ export const myProjects = [
       "Assessed market sentiment using rolling windows and correlation plots",
     ],
     href: "https://github.com/MananDesai1783/Tesla-Sales-Productions-Delivery-Analysis-Tableau/blob/main/Tesla%20final%20Project%20.pptx",
-    logo: "",
+    
     image: "/assets/projects/Proj_5.jpeg",
     tags: [
       {
@@ -186,7 +186,7 @@ export const myProjects = [
       "Implemented geo-location-based auto-suggestions for user inputs",
     ],
     href: "https://github.com/MananDesai1783/Real-Time-Weather-Analysis-SQL",
-    logo: "",
+    
     image: "/assets/projects/Proj_6.jpg",
     tags: [
       {
