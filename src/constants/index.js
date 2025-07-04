@@ -13,27 +13,7 @@ export const myProjects = [
     href: "https://github.com/MananDesai1783/Expedia-Hotel-Recommendation/blob/main/README.md",
   
     image: "/assets/projects/Proj_1.png",
-    tags: [
-       {
-        id: 1,
-        name: "Python",
-        
-      },
-      {
-        id: 2,
-        name: "Pandas",
     
-      },
-      {
-        id: 3,
-        name: "SQL",
-        
-      },
-      {
-        id: 4,
-        name: "PowerBI",
-        
-      },
     ],
   },
   {
@@ -50,22 +30,7 @@ export const myProjects = [
     href: "https://github.com/MananDesai1783/Sprocket-Data-Analysis-SQL/blob/main/README.md",
     
     image: "/assets/projects/Proj_2.png",
-    tags: [
-      {
-        id: 1,
-        name: "SQL",
-        
-      },
-      {
-        id: 2,
-        name: "Relational Databases",
-        
-      },
-      {
-        id: 3,
-        name: "Data Modeling",
-       
-      },
+    
     ],
   },
   {
@@ -82,22 +47,7 @@ export const myProjects = [
     href: "https://github.com/MananDesai1783/Social-Network-Analysis-Twitter/blob/main/README.md",
     
     image: "/assets/projects/Proj_3.png",
-    tags: [
-      {
-        id: 1,
-        name: "Python",
-        
-      },
-      {
-        id: 2,
-        name: "NetworkX",
-        
-      },
-      {
-        id: 3,
-        name: "SQL",
-        
-      },
+   
     ],
   },
   {
@@ -114,27 +64,7 @@ export const myProjects = [
     href: "https://github.com/MananDesai1783/Customer-Churn-Analysis-PowerBI/blob/main/README.md",
     
     image: "/assets/projects/Proj_4.png",
-    tags: [
-      {
-        id: 1,
-        name: "Python",
-        
-      },
-      {
-        id: 2,
-        name: "Skikit-Learn",
-        
-      },
-      {
-        id: 3,
-        name: "SQL",
-        
-      },
-      {
-        id: 4,
-        name: "PowerBI",
-        
-      },
+    
     ],
   },
   {
@@ -151,27 +81,7 @@ export const myProjects = [
     href: "https://github.com/MananDesai1783/Tesla-Sales-Productions-Delivery-Analysis-Tableau/blob/main/Tesla%20final%20Project%20.pptx",
     
     image: "/assets/projects/Proj_5.jpeg",
-    tags: [
-      {
-        id: 1,
-        name: "Python",
-        
-      },
-      {
-        id: 2,
-        name: "Time Series",
-        
-      },
-      {
-        id: 3,
-        name: "Pandas",
-        
-      },
-      {
-        id: 4,
-        name: "Matplotlib",
-        
-      },
+   
     ],
   },
   {
@@ -188,27 +98,7 @@ export const myProjects = [
     href: "https://github.com/MananDesai1783/Real-Time-Weather-Analysis-SQL",
     
     image: "/assets/projects/Proj_6.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Python",
-        
-      },
-      {
-        id: 2,
-        name: "APIs",
-        
-      },
-      {
-        id: 3,
-        name: "Real-Time Data",
-        
-      },
-      {
-        id: 4,
-        name: "Dash/Streamlit",
-        
-      },
+   
     ],
   },
 ];
