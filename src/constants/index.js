@@ -16,22 +16,22 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C#",
+        name: "Python",
         path: "/assets/logos/csharp.svg",
       },
       {
         id: 2,
-        name: ".Net",
+        name: "Pandas",
         path: "/assets/logos/dotnet.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
+        name: "SQL",
         path: "/assets/logos/efcore.png",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "PowerBI",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
@@ -53,24 +53,20 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Auth0",
+        name: "SQL",
         path: "/assets/logos/auth0.svg",
       },
       {
         id: 2,
-        name: "React",
+        name: "Relational Databases",
         path: "/assets/logos/react.svg",
       },
       {
         id: 3,
-        name: "SQLite",
+        name: "Data Modelling",
         path: "/assets/logos/sqlite.svg",
       },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+    
     ],
   },
   {
@@ -90,24 +86,20 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Blazor",
+        name: "Python",
         path: "/assets/logos/blazor.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
+        name: "NetworkX",
         path: "/assets/logos/dotnetcore.svg",
       },
       {
         id: 3,
-        name: "SQLite",
+        name: "SQL",
         path: "/assets/logos/sqlite.svg",
       },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      
     ],
   },
   {
@@ -127,22 +119,22 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C++",
+        name: "Python",
         path: "/assets/logos/cplusplus.svg",
       },
       {
         id: 2,
-        name: "C#",
+        name: "Skikit-Learn",
         path: "/assets/logos/csharp.svg",
       },
       {
         id: 3,
-        name: "Git",
+        name: "SQL",
         path: "/assets/logos/git.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
+        name: "PowerBI",
         path: "/assets/logos/microsoft.svg",
       },
     ],
@@ -164,22 +156,22 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "WordPress",
+        name: "Python",
         path: "/assets/logos/wordpress.svg",
       },
       {
         id: 2,
-        name: "HTML5",
+        name: "Time Series",
         path: "/assets/logos/html5.svg",
       },
       {
         id: 3,
-        name: "CSS3",
+        name: "Matplotlib",
         path: "/assets/logos/css3.svg",
       },
       {
         id: 4,
-        name: "Vite.js",
+        name: "Tableau",
         path: "/assets/logos/vitejs.svg",
       },
     ],
@@ -201,22 +193,22 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Blazor",
+        name: "Python",
         path: "/assets/logos/blazor.svg",
       },
       {
         id: 2,
-        name: "Azure",
+        name: "APIs",
         path: "/assets/logos/azure.svg",
       },
       {
         id: 3,
-        name: "Stripe",
+        name: "Real-Time Data",
         path: "/assets/logos/stripe.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "Dash/Streamlit",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
