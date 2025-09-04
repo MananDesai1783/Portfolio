@@ -98,7 +98,7 @@ const About = () => {
             </p>
             <p className="text-center text-white text-lg">
               Email me at{" "}
-              <CopyEmailButton email="mananpdesai1783@gmail.com" />
+              <CopyEmailButton email="mananpdesai3050@gmail.com" />
             </p>
           </div>
         </div>
@@ -108,7 +108,7 @@ const About = () => {
   <div className="z-10 w-[60%] text-[0.8rem] leading-normal space-y-2 pr-4 text-white">
     <p className="text-[0.9rem] font-semibold">Technical Skillset:</p>
     <p>
-      <strong>Languages & Databases:</strong> SQL, Python, R, PostgreSQL, Oracle, SQL Server, MySQL, MS Access, Git
+      <strong>Languages & Databases:</strong> SQL, Python, R, MySQL, MS Access, PostgreSQL, Oracle, Git, MongoDB
     </p>
     <p>
       <strong>Cloud & Visualization:</strong> AWS (S3, EC2, Glue, Athena, Redshift), Power BI, Tableau, Azure, Google Data Studio
