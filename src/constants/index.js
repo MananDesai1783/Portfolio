@@ -235,28 +235,30 @@ export const mySocials = [
 
 
 export const experiences = [
+
   {
-    title: "CVS Health",
-    job: "Data Analyst",
-    date: "May 2024 - Present",
-    contents: [
-      "Engineered an Alerts and Monitoring system using Python and AWS Lambda, boosting system runtime efficiency by 25%",
-      "Consolidated data from 10+ databases using SQL, Oracle, and AWS Redshift; automated ETL to cut retrieval time by 60%",
-      "Spearheaded development of HIPAA-compliant emergency response tool; liaised with stakeholders across 5+ teams using Waterfall methodology",
-      "Deployed 4 interactive Power BI dashboards; enabled real-time KPI tracking and improved care delivery by 20%",
-      "Skills: Python, SQL, Oracle, AWS Lambda, AWS Redshift, ETL, Power BI, HIPAA Compliance, Waterfall",
-    ],
-  },
-  {
-    title: "Independent Research Project",
+    title: "Research Project",
     job: "Research Analyst",
     date: "May 2024 - Present",
     contents: [
-      "Conducted a large-scale strategic transformation study across 271 CEO transitions; identified 24% of variance in post-succession strategic changes attributable to TMT replacements",
-      "Constructed Python-based data pipelines to clean, preprocess, and structure datasets for analytical modeling",
-      "Executed hypothesis testing and multivariate regression to extract causal insights from organizational data",
-      "Collaborated with CTO to derive and deliver strategic recommendations to executive teams",
-      "Skills: Python, Data Analysis, Regression Modeling, Hypothesis Testing, Data Cleaning, Data Visualization",
+      "Spearheaded a strategic transformation analysis across 271 CEO transitions using WRDS/Compustat data, quantifying a 24% variance in post-succession strategic direction due to TMT replacements.",
+      "Built Python pipelines for data ingestion, cleaning, and modeling to process 250K+ records, cutting data prep time by 40%.",
+      "Executed multivariate regression and hypothesis testing to derive causal impacts from organizational changes.",
+      "Skills: Python, Regression Analysis, Strategic Analysis, Data Engineering, WRDS, Compustat ",
+    ],
+  },
+  {
+    title: "Youbloom",
+    job: "Business Intelligence & Analytics Intern",
+    date: "May 2024 - Dec 2024",
+    contents: [
+      "Designed feature benchmarking and SWOT analysis to identify key product gaps, expediting personalization roadmap.",
+      "Engineered a PostgreSQL DB of 300+ records to optimize streaming recommendations, documented via FRD/BRD for cross functional synergy.",
+      "Orchestrated a 120% increase in fan interaction and 45% surge in ticket sales via UX-focused enhancements in youbloomConnect.",
+      "Diagnosed and triaged 15+ bugs through user testing, reducing resolution time by 40% through Trello-based collaboration.",
+      "Refined ranking logic using A/B tests and Google Analytics, increasing click-through rates by 10% and boosting session time by 8%.",
+      "Built 10+ Tableau dashboards with drilldowns and parameters to empower non-technical decision-makers.",
+      "Skills: PostgreSQL, Tableau, A/B Testing, Business Intelligence, Google Analytics, Product Strategy",  
     ],
   },
   {
@@ -270,16 +272,13 @@ export const experiences = [
     ],
   },
   {
-    title: "Genpact",
-    job: "Senior Data Analyst",
+    title: "D.J. Sanghvi College of Engineering",
+    job: " Data Analytics Research Team",
     date: "Mar 2021 - Aug 2023",
     contents: [
-      "Automated 6 ETL pipelines using Python (Pandas, NumPy, Scikit-learn) and Azure Data Factory; reduced turnaround from 2 days to 12 hrs",
-      "Built 3 Tableau dashboards for the Early Talent Team; reduced analysis time by 35%",
-      "Created EDA-based predictive model; improved revenue by 15%, customer retention by 20%",
-      "Led Agile/Scrum delivery across 5 business units using JIRA",
-      "Tuned SQL Server; reduced report generation time by 45% across 10+ finance processes",
-      "Skills: SQL Server, Python, Azure Data Factory, Tableau, EDA, Agile, Scrum, JIRA",
+      "Conducted exploratory data analysis (EDA) on gaming engagement metrics, increasing user retention by 30%.",
+      "Developed dashboards using SQL & Google Data Studio for KPI tracking on 1.2M+ records.",
+      "Skills: SQL, Google Data Studio, Python, PCA, Clustering, Machine Learning ",
     ],
   },
   {
@@ -287,9 +286,11 @@ export const experiences = [
     job: "Data Science Intern",
     date: "Jul 2022 - Sept 2022",
     contents: [
-      "Queried 1.2M+ records with SQL; designed dashboards in Google Data Studio for KPI tracking",
-      "Enhanced chat UX via Figma designs; reduced user interaction time by 20%, increased satisfaction scores by 35%",
-      "Skills: SQL, Google Data Studio, Power BI, Figma, KPI Tracking, UX Design, Data Visualization",
+      "Integrated 2,300 records across Oracle DB and financial reports for AI companies, enhancing trend detection by 30%.",
+      "Built AI sector index using factor analysis; implemented rolling correlations to capture non-market-driven anomalies in stock behavior.",
+      "Diagnosed key volatility drivers via event study models in Python, leading to risk-management insights.",
+      "Crafted 8 Power BI dashboards using DAX for financial KPI visuals, improving team efficiency by 3 hours/week.",
+      "Skills: Python, Power BI, Financial Analysis, Oracle DB, Event Study, DAX",
     ],
   },
 ];
