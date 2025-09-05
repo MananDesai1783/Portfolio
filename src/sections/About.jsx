@@ -98,7 +98,7 @@ const About = () => {
             </p>
             <p className="text-center text-white text-lg">
               Email me at{" "}
-              <CopyEmailButton email="mananpdesai3050@gmail.com" />
+              <CopyEmailButton email="manan.desai@rutgers.edu" />
             </p>
           </div>
         </div>
